@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>P vs. P</title>
+    <!-- jQuery reference -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+    <!-- CSS reset, twitterbootstrap and persoanl stylesheet -->
+    <link rel="stylesheet" href="assets\css\reset.css">
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css">
+    <link rel="stylesheet" href="assets\css\style.css">
+</head>
+<div class="page-header text-center" id="header">
+    <h1>World Welterweight </h1>
+    <h4>Place your bets now!</h4>
+</div>
+<div class="container">
+    <!-- where the user select their fighter and opponent -->
+    <div class="row">
+        <div class="col-lg-12 borderPurpleTest">
+            <h2 class="text-center" id="characterSelector">Select Your Fighter</h2>
+            <div class="img-responsive text-center">
+                <img src="assets/images/muhammad_Ali.jpg" alt="Muhammad Ali" class="muhammad_Ali">
+                <img src="assets/images/mikeTyson.jpg" alt="Mike Tyson" class="mikeTyson">
+                <img src="assets/images/evanderHolyfield.jpg" alt="Evander Holyfield" class="evanderHolyfield">
+            </div>
+        </div>
+    </div>
+    <div class="row borderPurpleTest outerDivHeight">
+        <!-- where opponent and the user character get moved to when they are selected -->
+        <div class="col-lg-12 outerDivHeight">
+            <div class="row">
+                <!--        <div class="health">
+                    HELLLO WORLD
+                </div> -->
+                <div class="col-md-2 borderPurpleTest innterColHeightAdj text-center" id="usersCharacter">
+                    <!-- Character user selected will be here -->
+                    <img src="http://placehold.it/350x150" class="userCharacterPlaceholder">
+                </div>
+                <div class="col-md-6 col-md-offset-1 borderPurpleTest ring">
+                    <img src="assets/images/boxingRing.jpg">
+                </div>
+                <div class="col-md-2 col-md-offset-1 borderPurpleTest  text-center" id="usersOpponent">
+                    <img src="http://placehold.it/350x150" class="userOpponentPlaceholder">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- All the buttons the user will use -->
+        <div class="col-lg-12 text-center borderPurpleTest">
+            <button type="button" class="btn btn-primary attack">Attack</button>
+            <button type="button" class="btn btn-danger">Super Attack</button>
+            <button type="button" class="btn btn-warning">Reset</button>
+        </div>
+    </div>
+</div>
+<!-- Page footer -->
+<footer class="navbar-default navbar-sticky-bottom" id="footer">
+    <div class="ccontainer-fluid">
+        <p>Copyright Tolu Idowu</p>
+    </div>
+</footer>
+<script src="assets/javascript/boxing.js"></script>
+
+<body>
+</body>
+
+</html>
