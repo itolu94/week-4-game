@@ -63,7 +63,7 @@ img {
 
 
 
-
+/*Size for the ring*/
 .ring {
     height: 220px;
 }
@@ -72,12 +72,14 @@ img {
     background-image: url(../images/boxingRing.jpg);
 }
 
+/*class that is added to the current opponent*/
 .currentOpponent {
     height: 100%;
     width: 100%;
     margin: 0 auto;
 }
 
+/*div box that wraps the characters when they have not been selected*/
 .fighterDiv {
 	position: relative;
 	margin: 0 2%;
@@ -87,10 +89,12 @@ img {
 	width: 20%;
 }
 
+/*changes opacity when the user hovers over a character*/
 .fighterDiv:hover img {
 	opacity: 0.3;
 }
 
+/*div box that the characters stats are placed in, and is absolute to the .fighterdiv (which wraps the images)*/
 .stats {
 	position: absolute;
 	bottom: 0;
@@ -104,6 +108,7 @@ img {
 	opacity: 1;
 }
 
+/*Health bar for the user*/
 .usersHealth, .opponentsHealth {
 	height: 20px;
 	background-color: red;
@@ -111,10 +116,14 @@ img {
 	widows: 100%;
 }
 
+
 #buttonMargin {
     margin: 2% 0;
 }
 
+#dialogeBox {
+	color: white;
+}
 #footer {
     position: absolute;
     background-color: #666666;

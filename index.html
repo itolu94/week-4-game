@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>P vs. P</title>
+    <title>Heavyweight Championship</title>
     <!-- jQuery reference -->
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <link rel="shortcut icon" href="assets/images/browsericon.jpg">
@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="assets\css\style.css">
 </head>
 <div class="page-header text-center" id="header">
-    <h1>World Welterweight </h1>
-    <h4>Place your bets now!</h4>
+    <h1>World Heavyweight Champtionship </h1>
 </div>
 <div class="container">
     <!-- where the user select their fighter and opponent -->
@@ -25,19 +24,19 @@
                 <div class="fighterDiv">
                     <img src="assets/images/muhammad_Ali.jpg" alt="Muhammad Ali" class="fighter">
                     <div class="stats">
-                        <span class="red">Atk</span>: 95  <span class="blue">Def</span>: 90  <span class="yellow">Spd </span>: 85
+                        <span class="red">Atk</span>: 92  <span class="blue">Def</span>: 97  <span class="yellow">Spd </span>: 96
                     </div>
                 </div>
                 <div class="fighterDiv">
                     <img src="assets/images/mikeTyson.jpg" alt="Mike Tyson" class="fighter">
                     <div class="stats">
-                        <span class="red">Atk</span>: 95  <span class="blue">Def</span>: 90  <span class="yellow">Spd</span>: 85
+                        <span class="red">Atk</span>: 98  <span class="blue">Def</span>: 89  <span class="yellow">Spd</span>: 85
                     </div>
                 </div>
                 <div class="fighterDiv">
                     <img src="assets/images/evanderHolyfield.jpg" alt="Evander Holyfield" class="fighter">
                     <div class="stats">
-                         <span class="red">Atk</span>: 95  <span class="blue">Def</span>: 90  <span class="yellow">Spd</span>: 85
+                         <span class="red">Atk</span>: 94  <span class="blue">Def</span>: 90  <span class="yellow">Spd</span>: 89
                     </div>
                 </div>
             </div>
@@ -64,14 +63,18 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+            	<div class="col-md-offset-3 col-md-6 text-center">
+            		<p id="dialogeBox">This is going to be a great match!</p>
+            	</div>
+            </div>
         </div>
     </div>
     <div class="row">
         <!-- All the buttons the user will use -->
         <div class="col-lg-12 text-center whiteBorder">
             <button type="button" class="btn btn-primary attack" id="buttonMargin">Attack</button>
-            <button type="button" class="btn btn-danger" id="buttonMargin">Super Attack</button>
-            <button type="button" class="btn btn-warning" id="buttonMargin">Reset</button>
+            <button type="button" class="btn btn-warning reset" id="buttonMargin">Reset</button>
         </div>
     </div>
 </div>
